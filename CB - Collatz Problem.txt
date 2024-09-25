@@ -1,0 +1,16 @@
+1. Read an integer `s` from user input.
+2. Initialize a list `m` with the value `s`.
+3. If `s` is less than 3, print 4 and exit.
+4. Repeat the following steps until `s` becomes 1 or enters a cycle:
+   a. If `s` is odd, update `s` to `3 * s + 1`; otherwise, update `s` to `s // 2`.
+   b. Check if `s` is already in the list `m`.
+      - If true, break out of the loop.
+      - If false, append `s` to the list `m`.
+5. Print the length of the list `m` plus 1.
+
+Explanation:
+- The algorithm takes an integer `s` as input.
+- It initializes a list `m` with the initial value `s`.
+- If `s` is less than 3, it prints 4 and exits the program.
+- Otherwise, it performs a sequence of operations on `s` until `s` becomes 1 or enters a cycle.
+- The length of the list `m` at the end represents the number of steps in the sequence, and it prints this length plus 1.

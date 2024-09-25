@@ -1,0 +1,25 @@
+Algorithm: StationDistances
+
+Input:
+  - n: number of stations
+  - m: number of queries
+  - stations: an array to store station positions
+
+1. Create an array named "stations" of size n+1 and initialize the first element to 0.
+
+2. Repeat the following steps n times:
+   a. Read the position of a station and store it in the "stations" array.
+
+3. Initialize an index "current_station" to 0.
+
+4. Repeat the following steps m times:
+   a. If there is a next station in the array:
+      i. Calculate the distance between the current station and the next station.
+      ii. Print the calculated distance.
+      iii. Update "current_station" to the index of the next station.
+   b. If there are no more stations:
+      i. Print 0 for the remaining queries.
+
+5. Output: Display the distances between consecutive stations for each query.
+
+End of Algorithm.

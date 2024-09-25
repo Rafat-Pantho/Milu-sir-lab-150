@@ -1,0 +1,6 @@
+1. Read an integer `n`.
+2. Initialize a variable `ans` to 0.
+3. While `n` is greater than 0, repeat the following steps:
+   a. Add the reciprocal of `n` to `ans`.
+   b. Decrement `n` by 1.
+4. Print the value of `ans` formatted to 12 decimal places.

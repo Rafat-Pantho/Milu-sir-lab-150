@@ -1,0 +1,8 @@
+1. Read an integer `t` from user input, representing the number of test cases.
+2. Repeat the following steps for each test case:
+   a. Read an integer `n` from user input.
+   b. Read a string `s` of length `n` from user input.
+   c. Initialize a variable `res` to `n - 1`.
+   d. Iterate over the range `i` from 0 to `n - 1`.
+      - If `s[i]` is equal to `'>'` or `s[n - 1 - i]` is equal to `'<'`, update `res` to the minimum of `i` and the current value of `res`.
+   e. Print the value of `res`.

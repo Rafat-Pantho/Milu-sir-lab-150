@@ -1,0 +1,14 @@
+1. Read an integer `t` from user input, representing the number of test cases.
+2. Repeat the following steps for each test case:
+   a. Read two integers `crnt_p_me` and `crnt_p_lift` from user input.
+   b. Calculate the total number of steps:
+      - Multiply `crnt_p_me` by 4.
+      - Add 19.
+      - Add the absolute difference between `crnt_p_me` and `crnt_p_lift` multiplied by 4.
+   c. Print the result in the format: "Case i: total_steps", where `i` is the current test case index.
+
+Explanation:
+- The algorithm takes an integer `t` representing the number of test cases.
+- For each test case, it reads two integers `crnt_p_me` and `crnt_p_lift`.
+- It calculates the total number of steps based on the given formula.
+- It prints the result in the specified format for each test case.

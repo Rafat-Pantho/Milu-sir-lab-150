@@ -1,0 +1,9 @@
+1. Read an integer `n` from user input.
+2. Read a list of integers `s` of length `n` from user input.
+3. Sort the list of integers `s` in ascending order.
+4. Initialize an array `arr1` of length `n` with all elements set to 0.
+5. Initialize two pointers, `left` and `right`, to 0 and `n-1` respectively.
+6. Iterate over the range of `i` from 0 to `n-1`.
+   a. If `i` is even, assign the value of `s[i]` to `arr1[left]` and increment `left` by 1.
+   b. If `i` is odd, assign the value of `s[i]` to `arr1[right]` and decrement `right` by 1.
+7. Print the elements of the modified array `arr1`.

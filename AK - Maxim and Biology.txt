@@ -1,0 +1,9 @@
+1. Read an integer `n`.
+2. Read a string `s`.
+3. Initialize `max_operations` to positive infinity.
+4. Iterate over substrings of length 4 in the string `s` up to the third-to-last character:
+   a. Extract a substring of length 4 starting from the current position.
+   b. Initialize `operations` to 0.
+   c. For each character in the substring, calculate the minimum of the absolute difference between its ASCII value and the corresponding character in "ACTG" and 26 minus that absolute difference, then add it to `operations`.
+   d. Update `max_operations` to be the minimum of `operations` and the current value of `max_operations`.
+5. Print the value of `max_operations`.

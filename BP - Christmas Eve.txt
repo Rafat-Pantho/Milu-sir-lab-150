@@ -1,0 +1,8 @@
+1. Read two integers `n` and `k`.
+2. Create a list `h` by reading `n` integers from user input.
+3. Sort the list `h`.
+4. Calculate the minimum difference between consecutive elements in subarrays of size `k`:
+   a. Iterate for `i` in the range from 0 to `(n-k+1)`:
+      i. Calculate the difference between the (i+k-1)-th and i-th elements in the sorted list.
+      ii. Find the minimum difference among all calculated differences.
+5. Print the minimum difference obtained in step 4.

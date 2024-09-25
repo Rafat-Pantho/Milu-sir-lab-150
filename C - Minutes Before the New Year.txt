@@ -1,0 +1,15 @@
+1. Read an integer `t` from user input.
+
+2. Repeat the following steps for `t` times:
+   a. Read two integers `h` and `m` from user input.
+   b. Calculate the difference between the total minutes in a day (24 hours) and the given time:
+      - Subtract `h` from 24 to get the remaining hours.
+      - Multiply the remaining hours by 60 and subtract `m` to get the total minutes remaining in the day.
+
+3. Print the result obtained in step 2b for each test case.
+
+Explanation:
+
+- The algorithm takes an integer `t` representing the number of test cases.
+- For each test case, it calculates the remaining time in minutes until the end of the day, given the input hours `h` and minutes `m`.
+- The result is then printed for each test case.

@@ -1,0 +1,15 @@
+1. Include necessary header files: stdio.h for input and output operations.
+2. Define a function binaryToDecimal that converts a binary number to decimal.
+3. Inside the main function:
+    a. Declare variables for the eight binary digits of two IP addresses: a1, b1, c1, d1, a2, b2, c2, d2.
+    b. Declare variables i, j, k, t for loop control and temporary storage.
+    c. Declare a character array s to handle the dot separators in the input.
+    d. Read the number of test cases t.
+4. For each test case:
+    a. Read the binary digits of the first IP address (a1, b1, c1, d1).
+    b. Read the binary digits of the second IP address (a2, b2, c2, d2).
+    c. Convert the binary digits of the second IP address to decimal using the binaryToDecimal function.
+5. Compare the decimal values of both IP addresses:
+    a. If the decimal values are equal for all four octets, print "Case i: Yes" where i is the case number.
+    b. Otherwise, print "Case i: No" where i is the case number.
+6. Repeat the process for each test case.

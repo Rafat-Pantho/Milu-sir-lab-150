@@ -1,0 +1,15 @@
+gen(n):
+1. Given an integer `n`, the function finds the smallest prime factor of `n`.
+2. Iterate over the range of `i` from 2 to the square root of `n` (inclusive).
+   a. If `n` is divisible evenly by `i`, return `i` as the smallest prime factor.
+3. If no prime factor is found, return `n` as it is a prime number.
+
+
+main code:
+1. Read an integer `n` from user input.
+2. Initialize a variable `d` to 0.
+3. If `n` is odd:
+   a. Find the smallest prime factor of `n` using the `gen` function.
+   b. Subtract the smallest prime factor from `n`.
+   c. Increment the value of `d` by 1.
+4. Print the sum of `d` and `n` divided by 2.

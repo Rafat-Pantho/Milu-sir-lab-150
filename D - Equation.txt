@@ -1,0 +1,21 @@
+1. Define a function `is_composite(a)` that takes an integer `a` and returns 1 if `a` is composite (has divisors other than 1 and itself), otherwise returns 0.
+   a. Initialize a variable `count` to 0.
+   b. Iterate through each integer `i` from 2 to `a-1` (exclusive).
+      - If `a` is divisible evenly by `i`, increment `count`.
+   c. Return 1 if `count` is greater than 0, indicating that `a` is composite; otherwise, return 0.
+2. Read an integer `n` from user input.
+3. Initialize variables `b` to 4 and `a` to 0.
+4. Enter a loop that continues until a suitable pair `(a, b)` is found:
+   a. Calculate `a` as the sum of `n` and `b`.
+   b. Check if both `a` and `b` are composite using the `is_composite` function.
+      - If true, break out of the loop.
+   c. Increment `b` by 1.
+   d. Enter a nested loop that continues until `b` is composite.
+      - Increment `b` by 1.
+5. Print the values of `a` and `b`.
+
+Explanation:
+- The algorithm defines a function to check if a given integer is composite.
+- It then reads an integer `n`.
+- It finds a pair `(a, b)` such that both `a` and `b` are composite, and their sum is equal to `n`.
+- The resulting values of `a` and `b` are printed.

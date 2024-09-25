@@ -1,0 +1,9 @@
+1. Read an integer n from user input.
+2. Read a list of integers s from user input and sort it in ascending order.
+3. Initialize an empty list a.
+4. Append the smallest element of the sorted list s to the list a.
+5. Iterate through each element i in the sorted list s:
+    a. For each element i, iterate through the elements in the list a.
+    b. Check if i is divisible by any element in the list a.
+    c. If not divisible, append i to the list a.
+6. Print the length of the final list a.

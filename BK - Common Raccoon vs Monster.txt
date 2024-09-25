@@ -1,0 +1,5 @@
+1. Read two integers `h` and `n`.
+2. Take the array input and Calculate the sum of the list of integers obtained from the input.
+3. Check if the sum is greater than or equal to `h`:
+   - If true, print "Yes".
+   - If false, print "No".

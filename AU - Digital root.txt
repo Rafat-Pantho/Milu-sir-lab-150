@@ -1,0 +1,5 @@
+1. Read an integer `t` representing the number of test cases.
+2. Repeat the following steps for each test case (from 1 to `t`):
+   a. Read two integers `k` and `x` as input.
+   b. Calculate the result using the formula: `9 * (k - 1) + x`.
+   c. Print the result.

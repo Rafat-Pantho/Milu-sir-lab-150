@@ -1,0 +1,10 @@
+1. Read an integer `t` from user input, representing the number of test cases.
+2. Repeat the following steps `t` times:
+   a. Read an integer `m` from user input.
+   b. Read a list of integers `p` from user input, representing the parity (even/odd) of each element in the list.(means array will take 0 for in the position i if even and 1 for odd)
+   c. Read an integer `n` from user input.
+   d. Read a list of integers `q` from user input, representing the parity (even/odd) of each element in the list.
+   e. Count the number of even and odd elements in lists `p` and `q`.
+   f. Calculate the product of the counts of even elements in `p` and `q`, and the product of the counts of odd elements in `p` and `q`.
+   g. Sum the results of the two products to get the final count.
+   h. Print the final count.

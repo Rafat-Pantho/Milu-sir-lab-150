@@ -1,0 +1,7 @@
+1.input n
+2.take a character array to store the first character of strings
+3.Initialize a counter (counting_s) to count the occurrences of each first character.
+4.find how many times same character came in the array
+5.For each count in the Counter, calculate the number of pairs that can be formed with those counts.
+6.Accumulate the countings for all characters.
+7.Print the final countings.

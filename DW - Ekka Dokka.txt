@@ -1,0 +1,7 @@
+1. Read an integer `t` from user input, representing the number of test cases.
+2. Repeat the following steps for each test case:
+   a. Read an integer `w` from user input.
+   b. If `w` is odd, print "Case i: Impossible" where `i` is the current test case index.
+   c. Otherwise, calculate `n` as `w // 2` and initialize `m` to 2.
+   d. While `n` is even, update `n` by dividing it by 2 and multiply `m` by 2.
+   e. Print the result in the format: "Case i: n m", where `i` is the current test case index, `n` is the calculated value, and `m` is the multiplier.

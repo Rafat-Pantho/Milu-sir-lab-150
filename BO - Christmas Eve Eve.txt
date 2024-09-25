@@ -1,0 +1,7 @@
+1. Read an integer `n`.
+2. Initialize an empty list `s`.
+3. Repeat the following steps for `n` times:
+   a. Read an integer and append it to the list `s`.
+4. Calculate the sum of the elements in the list `s` using `sum(s)`.
+5. Subtract half of the maximum value in the list from the sum calculated in step 4 (`sum(s) - max(s)//2`).
+6. Print the result obtained in step 5.

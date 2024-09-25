@@ -1,0 +1,8 @@
+1. Define a function named `something` that takes an integer `m` as an argument:
+   a. If `m` is equal to 0, return 0.
+   b. Otherwise, return the result of the expression `m - ((m // 3) + 1)` if `m` is not divisible by 3, otherwise return `m // 3`.
+
+2. Read an integer `t` from user input, representing the number of test cases.
+3. Repeat the following steps for each test case:
+   a. Read two integers `a` and `b` from user input.
+   b. Print the result of the expression `something(b) - something(a-1)` in the format: "Case i: result", where `i` is the current test case index.

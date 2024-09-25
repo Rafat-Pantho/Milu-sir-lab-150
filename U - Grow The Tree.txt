@@ -1,0 +1,5 @@
+1. Read an integer `n` from user input.
+2. Read a list of integers `a` from user input and sort it in ascending order.
+3. Calculate the sum of the first half of the sorted list `a[0:(n//2)]` and store it in the variable `sum1`.
+4. Calculate the sum of the second half of the sorted list `a[(n//2)::]` and store it in the variable `sum2`.
+5. Calculate the square of `sum1` and `sum2` and print the sum of these squares.

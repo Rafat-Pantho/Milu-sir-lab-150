@@ -1,0 +1,5 @@
+1.Read the value of n.
+2.Create a 2D array sructures, each containing an element and its position.
+3.Read the elements and assign them to the array of structures, also storing their positions.
+4.Sort the array of structures based on the elements using a sorting algorithm.
+5.loop from to middle element and print from the both side the position number

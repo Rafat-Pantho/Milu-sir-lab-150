@@ -1,0 +1,6 @@
+1. Read an integer `n` from user input.
+2. Read a string `s` of length `n` from user input.
+3. Initialize a variable `pos` to `n - 1`.
+4. Iterate over the range of `i` from 0 to `n - 2`.
+   a. If the character at position `i` is greater than the character at position `i+1`, update `pos` to `i` and break from the loop.
+5. Print the string obtained by concatenating the substring `s[:pos]` and `s[pos+1:]`.

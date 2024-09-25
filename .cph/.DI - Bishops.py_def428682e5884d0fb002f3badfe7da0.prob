@@ -1,0 +1,1 @@
+{"name":"Local: DI - Bishops","url":"d:\\IUT accademic\\Milu sir lab 150\\DI - Bishops.py","tests":[{"id":1700266047062,"input":"3\n1 1 10 10\n1 1 10 11\n1 1 5 3","output":"Case 1: 1\nCase 2: impossible\nCase 3: 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\IUT accademic\\Milu sir lab 150\\DI - Bishops.py","group":"local","local":true}

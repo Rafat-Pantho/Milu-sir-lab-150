@@ -1,0 +1,11 @@
+1. Read an integer `n` from user input.
+
+2. Read a list of integers `s` with `n` elements from user input and sort it in ascending order.
+
+3. Check if the largest element in `s` is less than the sum of all other elements:
+   - Print "Yes" if true.
+   - Print "No" otherwise.
+
+s[n-1] is the largest of all after short
+now sum the rest of the elements using for loop
+then check s[n-1]< sum or not

@@ -1,0 +1,7 @@
+1. Read an integer `n` from user input.
+2. Read a string `s` from user input.
+3. Initialize a variable `count` to 0.
+4. Iterate for `i` in the range from 0 to `n-1`:
+   a. Check if the i-th character of `s` is equal to the (i+1)-th character of `s`:
+      - If true, increment `count` by 1.
+5. Print the value of `count`.

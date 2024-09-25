@@ -1,0 +1,5 @@
+1. Read an integer `t` from user input, representing the number of test cases.
+2. Repeat the following steps for each test case:
+   a. Read two integers `a` and `b` from user input.
+   b. If `a` is greater than `b`, swap the values of `a` and `b`.
+   c. Print "YES" if `(a + b) % 3 == 0` and `a * 2 >= b`, otherwise print "NO".

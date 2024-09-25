@@ -1,0 +1,10 @@
+1. Read an integer `t` from user input, representing the number of test cases.
+2. Repeat the following steps for each test case:
+   a. Read two strings `a` and `b` from user input.
+   b. Convert the absolute value of the integer representation of string `b` to an integer.
+   c. Initialize a variable `rem` to 0.
+   d. Set variable `j` to 1 if the first character of string `a` is '-' (indicating a negative number), otherwise set `j` to 0.
+   e. Iterate over each character `i` in the substring of `a` starting from index `j`:
+      - Update `rem` by multiplying it by 10 and adding the integer value of `i`.
+      - Take the modulo `b` of `rem`.
+   f. Print "Case i: divisible" if `rem` is 0, otherwise print "Case i: not divisible", where `i` is the current test case index.

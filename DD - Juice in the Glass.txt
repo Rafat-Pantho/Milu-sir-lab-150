@@ -1,0 +1,17 @@
+1. Read an integer `t` from user input, representing the number of test cases.
+
+2. Repeat the following steps for each test case:
+   a. Read four integers `r1`, `r2`, `h`, and `p` from user input.
+   b. Calculate the radius `r3` using the formula: `r3 = p / h * (r1 - r2) + r2`.
+   c. Calculate the volume of the frustum using the formula: `volume1 = p * pi / 3 * (r3^2 + r2^2 + r3 * r2)`.
+   d. Print the result in the format: "Case i: volume1", where `i` is the current test case index.
+
+Explanation:
+
+- The algorithm takes an integer `t` representing the number of test cases.
+- For each test case, it reads four integers `r1`, `r2`, `h`, and `p`.
+- It calculates the radius `r3` of the frustum.
+- It calculates the volume of the frustum using the given formula.
+- It prints the result in the specified format for each test case.
+
+Note: The code uses the value of pi as 2 * acos(0.0), which is a way to approximate the value of pi.

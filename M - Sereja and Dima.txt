@@ -1,0 +1,18 @@
+1. Read an integer `n` from user input.
+2. Read a list of integers `a` of length `n` from user input.
+3. Initialize variables `count_1` and `count_2` to 0.
+4. Iterate over the range of `i` from 0 to `n-1`.
+   a. If `i` is even:
+      - Increment `count_1` by the maximum of the first and last elements of the list `a`.
+      - Remove the first element of `a` if it is greater than or equal to the last element; otherwise, remove the last element.
+   b. If `i` is odd:
+      - Increment `count_2` by the maximum of the first and last elements of the list `a`.
+      - Remove the first element of `a` if it is greater than or equal to the last element; otherwise, remove the last element.
+5. Print the values of `count_1` and `count_2`.
+
+Explanation:
+
+- The algorithm reads an integer `n` and a list of integers `a` from the user.
+- It initializes variables `count_1` and `count_2` to keep track of the counts for even and odd indices.
+- It iterates over the indices of the list, updating the counts and removing elements based on whether the index is even or odd.
+- Finally, it prints the values of `count_1` and `count_2`.

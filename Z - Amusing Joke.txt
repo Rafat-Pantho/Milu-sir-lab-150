@@ -1,0 +1,16 @@
+1. Import necessary libraries.
+2. Define a macro MAX_SIZE to represent the maximum size of input strings.
+3. Define a function ans that takes three strings s, a, and c as input and returns a string ("YES" or "NO").
+   - Initialize an array counting_d to store the count of characters in strings s and a.
+   - Iterate through each character in strings s and a and update the count in counting_d.
+   - Check if string c can be formed by decrementing the count in counting_d for each character in c.
+   - If any character in c is not found in counting_d or its count becomes negative, return "NO".
+   - If all characters in c are found and counts are valid, return "YES".
+4. In the main function:
+   - Declare character arrays s, a, and c to store input strings.
+   - Use fgets to read input strings from standard input.
+   - Remove newline characters from input strings.
+   - Call the ans function with input strings s, a, and c.
+   - Print the result obtained from the ans function.
+
+Note: This algorithm assumes that the input strings s, a, and c are provided as input. The ans function implements the logic to check if string c can be formed by merging strings s and a. The program prints the final result ("YES" or "NO").

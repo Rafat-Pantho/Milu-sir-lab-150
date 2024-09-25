@@ -1,0 +1,9 @@
+1. Read an integer fi as the number of test cases.
+2. Repeat the following steps for each test case (from 1 to fi):
+    a. Read an integer n.
+    b. Read a list of integers a of size n.
+    c. Sort the list a.
+    d. Initialize a boolean variable fin_of_the_fish to True.
+    e. Iterate over the elements of the sorted list a up to the second-to-last element.
+    If the difference between the current element and the next element is equal to 1, set fin_of_the_fish to False and break out of the loop.
+    f. Print 1 if fin_of_the_fish is True, else print 2.

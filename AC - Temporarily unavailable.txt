@@ -1,0 +1,6 @@
+1. Read an integer fi as the number of test cases.
+2. Repeat the following steps for each test case (from 1 to fi):
+    a. Read four integers a, b, c, and r.
+    b. Calculate L as the maximum value between the minimum of a and b and (c - r).
+    c. Calculate R as the minimum value between the maximum of a and b and (c + r).
+    d. Print the result of the expression: max(a, b) - min(a, b) - max(0, R - L).

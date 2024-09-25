@@ -1,0 +1,19 @@
+1. Read two integers `n` and `m` from user input.
+2. Initialize variables `sum1` and `sum2` to 0, and an empty list `arr_of_y`.
+3. Initialize a variable `count` to 0.
+4. Iterate for `n` times:
+   a. Read two integers `x` and `y` from user input.
+   b. Add `x` to `sum1`.
+   c. Append the difference of `x` and `y` to the list `arr_of_y`.
+5. Sort the list `arr_of_y`.
+6. Check if `sum1` is less than or equal to `m`:
+   - If true, print 0 and exit.
+   - If false:
+      a. Iterate while `n` is greater than 0:
+         i. Add the last element of `arr_of_y` to `sum2`.
+         ii. Increment `count` by 1.
+         iii. Decrement `n` by 1.
+         iv. Check if `sum1 - sum2` is less than or equal to `m`:
+             - If true, print `count` and exit the loop.
+      b. Check if `sum1 - sum2` is greater than `m`:
+         - If true, print -1.

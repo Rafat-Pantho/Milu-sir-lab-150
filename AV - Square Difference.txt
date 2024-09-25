@@ -1,0 +1,16 @@
+1. Define a function is_prime(n) to check if a given number n is prime.
+   a. Check if n is less than or equal to 1:
+      - If true, return False.
+   b. Check if n is less than or equal to 3:
+      - If true, return True.
+   c. Check if n is divisible by 2 or 3:
+      - If true, return False.
+   d. Initialize i to 5.
+   e. Iterate while the square of i is less than or equal to n:
+      i. Check if n is divisible by i or (i + 2):
+         - If true, return False.
+      ii. Increment i by 6.
+   f. Return True.
+2. Repeat the following steps for each test case (from 1 to the input value):
+   a. Read two integers `a` and `b`.
+   b. Print "YES" if the absolute difference between `a` and `b` is 1 and the sum of `a` and `b` is prime (using the is_prime function), else print "NO".

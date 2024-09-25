@@ -1,0 +1,10 @@
+1. Read an integer `t` representing the number of test cases.
+2. Repeat the following steps for each test case (from 1 to `t`):
+   a. Read an integer `n`.
+   b. Read a list of integers `a`.
+   c. Initialize variables `ans` and `result` to 0 and positive infinity, respectively.
+   d. Iterate for `i` in the range from 0 to `n`:
+      i. Check if the (n-1-i)-th element of `a` is greater than `result`:
+         - If true, increment `ans` by 1.
+      ii. Update `result` to be the minimum of the (n-1-i)-th element of `a` and the current value of `result`.
+   e. Print the final value of `ans`.

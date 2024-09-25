@@ -1,0 +1,14 @@
+1. Read num_test_cases from the input.
+2. Iterate over each test case using a loop with index i from 0 to num_test_cases - 1.
+    a. Read an integer num from the input for the current test case.
+    b. Define a function countOnesInBinary to count the number of '1' bits in the binary representation of a given integer.
+        i. Initialize a variable count to 0.
+        ii. Repeat the following steps until num becomes 0:
+            - If the last bit of num is 1, increment count.
+            - Divide num by 2.
+        iii. Return the final value of count.
+    c. Calculate num_of_ones by calling the countOnesInBinary function with the argument num.
+    d. Determine whether num_of_ones is odd or even.
+    e. If num_of_ones is odd, set the string variable result to "odd"; otherwise, set it to "even".
+    f. Print the result along with the case number using printf.
+3. End of the algorithm.

@@ -1,0 +1,7 @@
+1. Read a string `a` from user input.
+2. Check if the first character of `a` is lowercase and the rest of the string is uppercase:
+   a. If true, print the string with the first character in lowercase and the rest in uppercase.
+   b. If false, proceed to the next step.
+3. Check if the entire string `a` is in uppercase:
+   a. If true, print the string in lowercase.
+   b. If false, print the string as it is.

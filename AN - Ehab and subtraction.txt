@@ -1,0 +1,9 @@
+1. Read the number of elements (n) and the number of queries (m).
+2. Create a set to store elements.
+3. Add 0 and the elements from user input into the set.
+4. Initialize an iterator to the beginning of the set.
+5. Process each query:
+   a. Attempt to get the next iterator value.
+   b. Check if the iterator is done (reached the end of the set).
+      - If true, print "0".
+      - If false, print the next iterator value.

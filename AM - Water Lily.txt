@@ -1,0 +1,3 @@
+1. Read two integers `h` and `l`.
+2. Calculate the value `result` using the formula `(l*l - h*h) / (2*h)`.
+3. Print the result formatted to 13 decimal places.

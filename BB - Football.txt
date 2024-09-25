@@ -1,0 +1,12 @@
+1. Read a string `n` from user input.
+2. Initialize variables `keep_count` to 1 and an empty list `max_keep`.
+3. Iterate for `i` in the range from 0 to the length of `n` - 1:
+   a. Check if the i-th character of `n` is equal to the (i+1)-th character of `n`:
+      - If true, increment `keep_count` by 1.
+      - If false:
+         - Append the current value of `keep_count` to the list `max_keep`.
+         - Reset `keep_count` to 1.
+4. Append the final value of `keep_count` to the list `max_keep`.
+5. Check if the maximum value in `max_keep` is greater than or equal to 7:
+   - If true, print "YES".
+   - If false, print "NO".

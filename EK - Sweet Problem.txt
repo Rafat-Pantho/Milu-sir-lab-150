@@ -1,0 +1,7 @@
+1. Read an integer `t` from user input, representing the number of test cases.
+
+2. Repeat the following steps for each test case:
+   a. Read three integers `a`, `b`, and `c` from user input and sort them. (read them in an array so you can sort them using sort function)
+   b. Calculate the sum of the sorted integers and assign it to a variable `total`.
+   c. Print `total // 2` if the largest integer (`a[2]`) is less than or equal to the sum of the two smaller integers (`a[0] + a[1]`).
+      Otherwise, print the sum of the two smaller integers (`a[0] + a[1]`).

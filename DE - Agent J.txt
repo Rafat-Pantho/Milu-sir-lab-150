@@ -1,0 +1,11 @@
+1. Read testCase from the input.
+2. Iterate over each test case using a loop with index i from 0 to testCase - 1.
+    a. Read three double values a, b, and c representing the side lengths of a triangle.
+    b. Calculate the semi-perimeter s using the formula: s = (a + a + b + b + c + c) / 2.0.
+    c. Calculate the total area of the triangle using Heron's formula: total_area = sqrt(s * (s - a - b) * (s - b - c) * (s - c - a)).
+    d. Subtract the areas of three individual triangles formed by the sides a, b, and c from the total area.
+        i. For each side, calculate the corresponding angle using the law of cosines: angle(opp_A, opp_B, opp_C) = acos((opp_B^2 + opp_C^2 - opp_A^2) / (2 * opp_B * opp_C)).
+        ii. Use the area function to calculate the area of a triangle: area(r, angle) = 0.5 * r^2 * angle.
+        iii. Subtract the area of each individual triangle from the total area.
+    e. Print the result, rounded to 10 decimal places, along with the case number using cout.
+3. End of the algorithm.

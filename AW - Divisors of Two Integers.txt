@@ -1,0 +1,10 @@
+1. Read an integer `n` from user input.
+2. Subtract 2 from `n`.
+3. Read a list of integers `arr1` from user input and sort it.
+4. Initialize an empty list `arr2`.
+5. Iterate over the range from 0 to the length of `arr1` - 1 (exclusive):
+   a. Initialize `count_same` to 0.
+   b. If the last element of `arr1` is not divisible by the i-th element of `arr1`, append the i-th element to `arr2`.
+   c. If the last element of `arr1` is divisible by the i-th element of `arr1` and the i-th element is equal to the (i+1)-th element:
+      - Append the i-th element to `arr2`.
+6. Print the last element of `arr1` and the last element of `arr2`.

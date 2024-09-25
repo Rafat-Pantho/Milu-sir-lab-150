@@ -1,0 +1,6 @@
+1. Read the number of test cases t.
+2. Repeat the following steps for each test case:
+    a. Read integers n and k.
+    b. Create a base string containing the first k lowercase English letters.
+    c. Repeat the base string until its length is at least n.
+    d. Print the resulting string.

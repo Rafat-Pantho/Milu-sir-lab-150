@@ -1,0 +1,11 @@
+1. Read an integer `n` from user input.
+2. Read a list of strings `a` of length `n` from user input.
+3. Initialize a variable `count_of_co` to 0.
+4. Initialize two arrays `row_count` and `col_count` of length `n` with all elements set to 0.
+5. Iterate over the range of `row` from 0 to `n-1`.
+   a. Iterate over the range of `col` from 0 to `n-1`.
+      - If `a[row][col]` is 'C', increment both `row_count[row]` and `col_count[col]` by 1.
+6. Iterate over the range of `i` from 0 to `n-1`.
+   a. If `row_count[i]` is greater than 1, increment `count_of_co` by the combination of `row_count[i]` choose 2.
+   b. If `col_count[i]` is greater than 1, increment `count_of_co` by the combination of `col_count[i]` choose 2.
+7. Print the value of `count_of_co`.

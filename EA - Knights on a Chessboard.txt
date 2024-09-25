@@ -1,0 +1,6 @@
+1. Read an integer `t` from user input, representing the number of test cases.
+2. Repeat the following steps for each test case:
+   a. Read two integers `n` and `m` from user input.
+   b. If `n` is equal to 1 or `m` is equal to 1, print "Case i: max(m, n)" where `i` is the current test case index.
+   c. If `n` is equal to 2 or `m` is equal to 2, print "Case i: (m * n) // 8 * 4 + min((m * n) % 8, 4)" where `i` is the current test case index.
+   d. Otherwise, print "Case i: (m * n + 1) // 2" where `i` is the current test case index.

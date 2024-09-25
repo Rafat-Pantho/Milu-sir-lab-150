@@ -1,0 +1,6 @@
+1. Read a string `s` from user input and convert it to lowercase.
+2. Initialize an empty string `a`.
+3. Iterate for each character `i` in `s`:
+   a. Check if `i` is not a vowel ('a', 'e', 'i', 'o', 'u', 'y'):
+      - If true, concatenate `.` and `i` to the string `a`.
+4. Print the final string `a`.

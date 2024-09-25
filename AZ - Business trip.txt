@@ -1,0 +1,12 @@
+1. Read an integer `n` from user input.
+2. Read a list of integers `arr1`, sort it, and store the result in `arr1`.
+3. Check if `n` is equal to 0:
+   - If true, print 0 and exit.
+   - If false:
+      a. Initialize a variable `sum1` to 0.
+      b. Iterate for `i` in the range from 0 to the length of `arr1`:
+         i. Add the i-th element from the end of `arr1` to `sum1`.
+         ii. Check if `sum1` is greater than or equal to `n`:
+             - If true, print `i + 1` and exit the loop.
+      c. Check if `sum1` is still less than `n`:
+         - If true, print -1.

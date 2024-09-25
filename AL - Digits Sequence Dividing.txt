@@ -1,0 +1,9 @@
+1. Read an integer `fi` as the number of test cases.
+2. Repeat the following steps for each test case (from 1 to `fi`):
+   a. Read an integer `n`.
+   b. Read a string `s`.
+   c. If `n` is equal to 2 and the first character of `s` is greater than or equal to the second character, print "NO".
+   d. Otherwise:
+      - Print "YES".
+      - Print 2.
+      - Print the first character of `s` followed by the substring of `s` starting from the second character.

@@ -1,0 +1,11 @@
+1. Read four integers: `x1`, `y1`, `x2`, and `y2` from user input.
+
+2. Calculate the differences along the x and y axes:
+   a. Let `disx` be the difference between `x2` and `x1`.
+   b. Let `disy` be the difference between `y2` and `y1`.
+
+3. Print the coordinates of the rotated points:
+   - Print `x2 - disy` as the x-coordinate of the first rotated point.
+   - Print `y2 + disx` as the y-coordinate of the first rotated point.
+   - Print `x1 - disy` as the x-coordinate of the second rotated point.
+   - Print `y1 + disx` as the y-coordinate of the second rotated point.

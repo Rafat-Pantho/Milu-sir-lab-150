@@ -1,0 +1,5 @@
+1.take testcase input
+2.initialize int n and sum. sum=0
+3.run a loop of n and input x
+	a. if x<=2048 , increment sum by x
+4.if sum>=2048, yes else no

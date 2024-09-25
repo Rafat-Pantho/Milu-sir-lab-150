@@ -1,0 +1,12 @@
+1. Read two integers, `h` and `w`, representing the dimensions of a grid.
+2. Read a list of strings `s` representing the grid of size `h`x`w`.
+3. Initialize two lists, `row` and `col`, both of size `h` and `w` respectively, with all elements set to False.
+4. Iterate through each element in the grid to identify rows and columns containing '#':
+   a. For each row `i` from 0 to `h`:
+      i. For each column `j` from 0 to `w`:
+         - If the element at position `(i, j)` in the grid is '#', set `row[i]` and `col[j]` to True.
+5. Iterate through each row:
+   a. If `row[i]` is True:
+      i. Iterate through each column:
+         - If `col[j]` is True, print the element at position `(i, j)` in the grid.
+      ii. Print a newline to separate rows.

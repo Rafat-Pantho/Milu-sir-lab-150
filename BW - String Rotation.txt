@@ -1,0 +1,79 @@
+Algorithm: CheckRotation
+1. Read two strings 's' and 't' from the user.
+2. Initialize a variable 'ans' to 0 to represent the result.
+3. Iterate through each character of the first string 's'.
+    a. Check if 's' is equal to 't'.
+        i. If true, set 'ans' to 1 and exit the loop.
+    b. Rotate the first string 's' by one character to the left.
+4. Print "Yes" if the strings are equal, otherwise print "No".
+5. End.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    // Read two strings from the user
+    char s[100], t[100];
+    scanf("%s", s);
+    scanf("%s", t);
+
+    // Initialize a variable for the result
+    int ans = 0;
+
+    // Iterate through the characters of the first string
+    for (int i = 0; i < strlen(s); i++) {
+        // Check if the strings are equal
+        if (strcmp(s, t) == 0) {
+            // Update the result variable and exit the loop
+            ans = 1;
+            break;
+        }
+
+        // Rotate the first string by one character
+        char temp = s[0];
+        for (int j = 0; j < strlen(s) - 1; j++) {
+            s[j] = s[j + 1];
+        }
+        s[strlen(s) - 1] = temp;
+    }
+
+    // Print "Yes" if the strings are equal, otherwise print "No"
+    printf("%s\n", ans ? "Yes" : "No");
+
+    return 0;
+}

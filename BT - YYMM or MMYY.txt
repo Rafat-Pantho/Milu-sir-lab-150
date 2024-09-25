@@ -1,0 +1,13 @@
+1. Read an integer `s` from user input.
+
+2. Calculate the left and right parts:
+   a. `l` is obtained by dividing `s` by 100.
+   b. `r` is obtained by taking the remainder of `s` when divided by 100.
+
+3. Check the following conditions:
+   a. If 1 <= `l` <= 12:
+      i.   If 1 <= `r` <= 12, print "AMBIGUOUS".
+      ii.  If not, print "MMYY".
+   b. If not, 
+      i.   If 1 <= `r` <= 12, print "YYMM".
+      ii.  If not, print "NA".

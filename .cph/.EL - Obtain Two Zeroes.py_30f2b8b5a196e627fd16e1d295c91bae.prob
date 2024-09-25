@@ -1,0 +1,1 @@
+{"name":"Local: EL - Obtain Two Zeroes","url":"d:\\IUT accademic\\Milu sir lab 150\\EL - Obtain Two Zeroes.py","tests":[{"id":1700268843671,"input":"3\n6 9\n1 1\n1 2","output":"YES\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\IUT accademic\\Milu sir lab 150\\EL - Obtain Two Zeroes.py","group":"local","local":true}

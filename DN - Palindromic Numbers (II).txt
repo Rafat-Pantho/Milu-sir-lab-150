@@ -1,0 +1,8 @@
+1. Read the number of test cases t.
+2. Repeat the following steps for each test case:
+    a. Read the input string s.
+    b. Initialize a variable isPalindrome to 1 (true), assuming the string is a palindrome.
+    c. Iterate through the first half of the string:
+        i. Check if the character at the current position is not equal to its corresponding character from the end of the string.
+        ii. If they are not equal, set isPalindrome to 0 (false) and break out of the loop.
+    d. Print "Case x: Yes" if isPalindrome is true, indicating that the string is a palindrome; otherwise, print "Case x: No", where x is the current test case number.

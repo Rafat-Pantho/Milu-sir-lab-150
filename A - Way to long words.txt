@@ -1,0 +1,8 @@
+1. Read an integer n as the number of test cases.
+2. Repeat the following steps for each test case (from 1 to n):
+    a. Read a string s.
+    b. If the length of s is less than or equal to 10, print the original string s.
+    c. If the length of s is greater than 10, print a modified version:
+        Output the first character of s.
+        Output the count of characters between the first and last characters of s.
+        Output the last character of s.

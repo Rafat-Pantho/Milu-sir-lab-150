@@ -1,0 +1,7 @@
+1. Read an integer `n` from user input.
+2. Read a list of integers `a` of length `n` from user input.
+3. Sort the list of integers `a` in ascending order.
+4. Initialize a variable `count` to 0.
+5. Iterate over the range of `i` from 0 to `n-2`.
+   a. Increment `count` by the difference between the next element `a[i+1]` and the current element `a[i]` minus 1.
+6. Print the value of `count`.

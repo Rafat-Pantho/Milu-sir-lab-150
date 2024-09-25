@@ -1,0 +1,6 @@
+1. Read an integer `t` representing the number of test cases.
+2. Repeat the following steps for each test case (from 1 to `t`):
+   a. Read four integers `L`, `v`, `l`, and `r`.
+   b. Calculate the number of complete cycles within the range [l, r] using `int((r/v) - (l-1)/v)`.
+   c. Calculate the total number of cycles needed to cover the distance `L` using `int(L/v)`.
+   d. Print the result obtained in step (c) minus the result obtained in step (b).

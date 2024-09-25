@@ -1,0 +1,9 @@
+1. Read two integers `n` and `k`.
+2. Read a list of integers `h` and sort it.
+3. Check if `k` is greater than or equal to `n`:
+   - If true, print 0 and exit.
+   - If false:
+      a. Initialize a variable `sum1` to 0.
+      b. Iterate for `i` in the range from 0 to `(n-k)`:
+         i. Add the i-th element of the sorted list `h` to `sum1`.
+      c. Print the final value of `sum1`.

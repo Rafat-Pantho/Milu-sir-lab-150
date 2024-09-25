@@ -1,0 +1,11 @@
+1. Define a function is_ramaji that takes a string s as input.
+    a. Check if the last character of the string s is not a vowel (not in "aeioun").
+        -> If true, return False.
+    b. Iterate through the characters of the string s up to the second-to-last character.
+    c. Check if the current character and the next character are not vowels.
+    d. If true, check if the current character is not 'n'.
+        -> If both conditions are met, return False.
+    e. If the loop completes without returning False, return True.
+
+2. Read a string s from the user.
+3. Print "YES" if is_ramaji(s) is True, otherwise print "NO".

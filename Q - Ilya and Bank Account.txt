@@ -1,0 +1,11 @@
+1. Read an integer `n` from user input.
+2. If `n` is greater than or equal to 0, print `n` and exit.
+3. If `n` is negative:
+   a. Take the absolute value of `n`.
+   b. Calculate the value of `p` by integer dividing `n` by 10.
+   c. Calculate the value of `q` by taking the integer division of `n` by 100, multiplying the result by 10, and adding the remainder of `n` divided by 10.
+   d. Print the maximum of `-p` and `-q`.
+
+Explanation:
+- If `n` is non-negative, it directly prints `n`.
+- If `n` is negative, it calculates two values, `p` and `q`, and prints the maximum of `-p` and `-q`.

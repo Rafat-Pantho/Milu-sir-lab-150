@@ -1,0 +1,18 @@
+1. Read an integer `n` from user input.
+
+2. Read a list of strings `s` with `n` elements from user input.
+
+3. Iterate through each string in the list:
+   a. Check if the count of the current string in the list is greater than 1:
+      - If true, print "No" and exit the program.
+   b. If the index is not the last index (`i != n-1`):
+      - Check if the last character of the current string is not equal to the first character of the next string:
+         - If true, print "No" and exit the program.
+
+4. If no issues were found in the loop, print "Yes".
+
+Explanation:
+
+- The algorithm checks if there are any repeated strings in the list `s`.
+- It also checks if the last character of each string is equal to the first character of the next string.
+- If both conditions are met for all strings, it prints "Yes"; otherwise, it prints "No".

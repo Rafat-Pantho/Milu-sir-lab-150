@@ -1,0 +1,8 @@
+1. Read an integer `t` representing the number of test cases.
+2. Repeat the following steps for each test case (from 1 to `t`):
+   a. Read two integers `n` and `d`.
+   b. Calculate the maximum time using the expression `int(d**0.5) + 10`.
+   c. Iterate for `x` in the range from 0 to `max_time+1`:
+      i. Check if `x + (x + d)//(x + 1)` is less than or equal to `n`:
+         - If true, break out of the loop.
+   d. Print "YES" if `x` is less than `max_time`, otherwise print "NO".

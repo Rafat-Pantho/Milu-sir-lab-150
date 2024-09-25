@@ -1,0 +1,7 @@
+#include <math.h>
+round function rounds the fractional number ie floating points.
+
+1. Read two integers `n` and `k` from user input.
+2. Calculate the expression `n + 1.5 - sqrt(2 * (n + k) + 2.75)`.
+3. Round the result to the nearest integer using the `round` function.
+4. Print the rounded result.

@@ -1,0 +1,8 @@
+1. Read an integer `t` from user input, representing the number of test cases.
+2. Repeat the following steps for each test case:
+   a. Print the test case header in the format: "Case i:", where `i` is the current test case index.
+   b. Read four integers `x1`, `y1`, `x2`, and `y2` from user input.
+   c. Read an integer `m` from user input, representing the number of queries.
+   d. Repeat the following steps for each query:
+      - Read two integers `x` and `y` from user input.
+      - Print "Yes" if `x` is greater than `x1`, less than `x2`, and `y` is greater than `y1`, and less than `y2`; otherwise, print "No".

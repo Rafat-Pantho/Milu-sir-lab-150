@@ -1,0 +1,9 @@
+1. Read an integer `n` from user input.
+2. Initialize an empty list `s`.
+3. Iterate for `n` times:
+   a. Read a string and append it to the list `s`.
+4. Sort the list `s` based on the length of each string.
+5. Iterate for `i` from 0 to `n-2`:
+   a. Check if the (i+1)-th string in the sorted list does not contain the i-th string:
+      - If true, print "NO" and exit.
+6. Print "YES" followed by the strings in the sorted list, each on a new line.

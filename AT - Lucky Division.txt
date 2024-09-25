@@ -1,0 +1,14 @@
+1. Define a function is_lucky(n) to determine if a given number n is lucky.
+   a. Check if n is divisible by 4 or 7:
+      - If true, return True.
+   b. Initialize i to 47.
+   c. Iterate while i is less than or equal to n:
+      i. If i is divisible by 7, increment i by 2.
+      ii. Check if i consists only of the digits "4" and "7" and n is divisible by i:
+          - If true, return True.
+      iii. Increment i by 2.
+   d. Return False.
+
+2. Read an integer n from user input.
+
+3. Print "YES" if is_lucky(n) is true, else print "NO".

@@ -1,0 +1,5 @@
+1. Read an integer `t` representing the number of test cases.
+2. Repeat the following steps for each test case (from 1 to `t`):
+   a. Read two integers `A` and `B`.
+   b. Calculate the length of the string representation of `B+1` using `len(str(B+1))`.
+   c. Print the result of `A` multiplied by the length obtained in step (b).

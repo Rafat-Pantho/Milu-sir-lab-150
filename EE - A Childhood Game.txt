@@ -1,0 +1,11 @@
+1. Read an integer `t` from user input, representing the number of test cases.
+2. Repeat the following steps for each test case:
+   a. Read two values `n` and `name` from user input.
+   b. Convert `n` to an integer.
+   c. Initialize an empty string `result`.
+   d. If `name` is equal to "Alice":
+      - If `n % 3` is equal to 1, set `result` to "Bob".
+      - Otherwise, set `result` to "Alice".
+   e. If `name` is not equal to "Alice":
+      - Set `result` to "Bob" if `n % 3` is 0, otherwise set it to "Alice".
+   f. Print the result in the format: "Case i: result", where `i` is the current test case index.

@@ -1,0 +1,6 @@
+1. Read an integer `n` from the user.
+2. Initialize a counter variable `count` to 0.
+3. Iterate through numbers from 1 to `n` (inclusive):
+   a. Check if the length of the string representation of the current number is odd.
+      - If true, increment the counter `count`.
+4. Print the final value of the counter `count`, representing the count of numbers with odd-length digits.

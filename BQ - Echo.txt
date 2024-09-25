@@ -1,0 +1,5 @@
+1. Read an integer `n`.
+2. Read a string `s`.
+3. Check if `n` is even and the first half of the string `s` is equal to the second half:
+   - If true, print "Yes".
+   - If false, print "No".

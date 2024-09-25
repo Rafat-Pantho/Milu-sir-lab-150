@@ -1,0 +1,9 @@
+1. Read an integer `t` from user input, representing the number of test cases.
+2. Repeat the following steps for each test case:
+   a. Read an integer `n` from user input.
+   b. Read a list of integers `sa` of length `n` from user input.
+   c. Create a new list `s` and set its first element to 2, then extend it with the elements of `sa`.
+   d. Initialize a variable `count` to 0.
+   e. Iterate over the elements of `s` starting from index 1:
+      - Increment `count` by `(s[i] - s[i-1] + 4) // 5`.
+   f. Print the result in the format: "Case i: count", where `i` is the current test case index.

@@ -1,0 +1,15 @@
+1. Read an integer `t` from user input, representing the number of test cases.
+2. Repeat the following steps for each test case:
+   a. Read three integers `n`, `p`, and `q` from user input.
+   b. Read a list of integers `arr1` of length `n` from user input and sort it in ascending order.
+   c. Initialize a variable `mx` to 0, representing the maximum number of bowls.
+   d. Iterate over all possible combinations of bowls:
+      - For each starting index `i` from 0 to `n-1`:
+         - Initialize variables `number` and `bowl` to 0.
+         - For each ending index `j` from `i` to `n-1`:
+            - If `number + 1` is less than or equal to `p` and `bowl + arr1[j]` is less than or equal to `q`:
+               - Increment `bowl` by `arr1[j]`.
+               - Increment `number` by 1.
+               - Update `mx` with the maximum of `mx` and `number`.
+            - Otherwise, break out of the loop.
+   e. Print the result in the format: "Case i: mx", where `i` is the current test case index.

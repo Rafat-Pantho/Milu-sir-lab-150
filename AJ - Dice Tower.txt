@@ -1,0 +1,6 @@
+1. Read an integer `t`.
+2. Read a list of integers `arr`.
+3. For each element `i` in the list `arr`, repeat the following steps:
+   a. Check if the result of dividing `i` by 14 is greater than or equal to 1 AND if the remainder of the division lies between 1 and 6 (inclusive).
+   b. If both conditions are true, print "YES".
+   c. Otherwise, print "NO".

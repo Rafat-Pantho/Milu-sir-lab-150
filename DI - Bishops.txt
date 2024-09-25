@@ -1,0 +1,8 @@
+1. Read an integer `t` from user input, representing the number of test cases.
+2. Repeat the following steps for each test case:
+   a. Read four integers `r1`, `c1`, `r2`, and `c2` from user input.
+   b. Calculate the absolute differences `c` and `r` between `c1` and `c2`, and `r1` and `r2` respectively.
+   c. Check the conditions:
+      - If `r` is equal to `c`, print "Case i: 1", where `i` is the current test case index.
+      - If both `r` and `c` are even or both are odd, print "Case i: 2".
+      - Otherwise, print "Case i: impossible".

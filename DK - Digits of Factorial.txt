@@ -1,0 +1,8 @@
+1. Initialize a list `storage` with length 1000001, where `storage[0]` is set to 0.
+2. Populate the `storage` list using a loop from 1 to 1000000:
+   a. Set `storage[i]` to the sum of `storage[i-1]` and the logarithm (base e) of `i`.
+3. Read an integer `t` from user input, representing the number of test cases.
+4. Repeat the following steps for each test case:
+   a. Read two integers `n` and `base` from user input.
+   b. Calculate the result using the formula: `int(storage[n] / log(base)) + 1`.
+   c. Print the result in the format: "Case i: result", where `i` is the current test case index.

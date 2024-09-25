@@ -1,0 +1,1 @@
+{"name":"Local: BI - Yet Another Meme Problem","url":"d:\\IUT accademic\\Milu sir lab 150\\BI - Yet Another Meme Problem.py","tests":[{"id":1699786761290,"input":"3\n1 11\n4 2\n191 31415926","output":"1\n0\n1337"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\IUT accademic\\Milu sir lab 150\\BI - Yet Another Meme Problem.py","group":"local","local":true}

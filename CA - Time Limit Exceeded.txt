@@ -1,0 +1,18 @@
+1. Read two integers `N` and `T` from user input.
+
+2. Initialize `ans` to positive infinity.
+
+3. Repeat the following steps `N` times:
+   a. Read two integers `c` and `t` from user input.
+   b. Check if `t` is less than or equal to `T` and `c` is less than the current value of `ans`:
+      - If true, update `ans` with the value of `c`.
+
+4. Print "TLE" if `ans` is still positive infinity; otherwise, print the value of `ans`.
+
+Explanation:
+
+- The algorithm takes the number of test cases `N` and the time limit `T`.
+- It iterates through each test case, where each test case consists of a pair of integers `c` and `t`.
+- For each test case, it checks if the time `t` is within the limit `T` and if the cost `c` is less than the current value of `ans`.
+- If both conditions are met, it updates the value of `ans` with the cost `c`.
+- Finally, it prints "TLE" if `ans` is still positive infinity; otherwise, it prints the value of `ans`.

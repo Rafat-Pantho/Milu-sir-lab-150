@@ -1,0 +1,7 @@
+1. Read an integer `fi` as the number of test cases.
+2. Repeat the following steps for each test case (from 1 to `fi`):
+   a. Read two integers `n` and `k`.
+   b. Calculate `x` as follows:
+      - Set `x` to `n` minus the remainder of the division of `n` by `k`.
+      - Add the minimum of the remainder of the division of `n` by `k` and half of `k` to `x`.
+   c. Print the value of `x`.

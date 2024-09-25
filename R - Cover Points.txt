@@ -1,0 +1,6 @@
+1. Initialize a variable `ans` to 0.
+2. Read an integer `n` from user input.
+3. Repeat the following steps `n` times:
+   a. Read two integers `x` and `y` from user input.
+   b. Update `ans` to the maximum of its current value and the sum of `x` and `y`.
+4. Print the final value of `ans`.

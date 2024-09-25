@@ -1,0 +1,1 @@
+{"name":"Local: DX - Division by 3","url":"d:\\IUT accademic\\Milu sir lab 150\\DX - Division by 3.py","tests":[{"id":1700224010245,"input":"2\n3 5\n10 110","output":"Case 1: 2\nCase 2: 67"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\IUT accademic\\Milu sir lab 150\\DX - Division by 3.py","group":"local","local":true}

@@ -1,0 +1,12 @@
+1. Read an integer `n` from user input.
+2. Read a list of integers `arr1` from user input, split the input string, and convert each element to an integer.
+3. Initialize an empty list `arr2`.
+4. Initialize a variable `count` to 1.
+5. Iterate over the range from 0 to `n-1` (exclusive):
+   a. Check if the (i+1)-th element of `arr1` is greater than or equal to the i-th element of `arr1`:
+      - If true, increment `count` by 1.
+      - If false:
+        - Append the current value of `count` to `arr2`.
+        - Reset `count` to 1.
+6. Append the final value of `count` to `arr2`.
+7. Print the maximum value in the list `arr2` using the `max` function.

@@ -1,0 +1,11 @@
+1. Read the number of test cases t.
+2. Repeat the following steps for each test case:
+    a. Read the number of elements n in the set.
+    b. Initialize an empty set a to store unique elements.
+    c. Iterate n times and insert each element into the set a.
+    d. Initialize a variable result to 0, which will store the number of moves needed.
+    e. Repeat the following steps until the set a is not empty:
+        i. Get the maximum element m from the set.
+        ii. Remove m from the set.
+        iii. If m is even, increment result by 1, and insert m/2 into the set.
+    f. Print the final value of result for the current test case.

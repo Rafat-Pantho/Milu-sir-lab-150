@@ -1,0 +1,6 @@
+1. Read an integer `n`.
+2. Read a string `s`.
+3. Iterate through each character in the string `s`:
+   a. Calculate the new character using the formula `(ord(s[i]) - ord('A') + n) % 26`.
+   b. Print the corresponding character obtained by adding `ord('A')` to the result.
+4. Print a newline to complete the output.

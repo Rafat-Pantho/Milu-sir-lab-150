@@ -1,0 +1,7 @@
+1. Read an integer `fi` as the number of test cases.
+2. Repeat the following steps for each test case (from 1 to `fi`):
+   a. Read an integer `n`.
+   b. Read a list of integers `a` of size `n`.
+   c. Sort the list `a` in ascending order.
+   d. Reverse the sorted list `a`.
+   e. Print the minimum value between `a[1] - 1` and `n - 2`.

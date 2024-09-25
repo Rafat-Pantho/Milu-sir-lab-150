@@ -1,0 +1,28 @@
+1. Define a function bubbleSort(arr, bonus) to perform bubble sort on arrays arr and bonus.
+   a. Get the length of the array arr (n).
+   b. Traverse through all array elements:
+      i. For each i, traverse the array from 0 to n-i-1:
+         - If the element at index j is greater than the element at index j+1, swap the elements in both arr and bonus arrays.
+
+2. Read two space-separated values s and n.
+   a. Convert s and n to integers.
+
+3. Initialize two empty arrays x and y.
+
+4. For i in range(n):
+   a. Read a space-separated pair of values a[0] and a[1].
+   b. Convert a[0] and a[1] to integers.
+   c. Append a[0] to array x and a[1] to array y.
+
+5. Initialize variables win to 0.
+
+6. Call the bubbleSort function with parameters x and y.
+
+7. Iterate for i in range(n):
+   a. Check if s is greater than x[i]:
+      - If true, add y[i] to s and increment win by 1.
+      - If false, print "NO" and break out of the loop.
+
+8. Check if win is equal to n:
+   - If true, print "YES".
+
